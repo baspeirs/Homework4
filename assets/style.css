@@ -1,0 +1,24 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.container {
+    background-color: azure;
+    border-radius: 15px;
+    width: 425px;
+    margin:auto;
+    padding: 3px;
+    margin-bottom: 3px;
+}
+
+button {
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+}
+
+.hide {
+    display: none;
+    padding: 0px;
+}
