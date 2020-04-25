@@ -25,7 +25,9 @@ function scoreListGenerate() {
     scoreList.appendChild(listItem)
     
 }
-scoreListGenerate();
+if (lastUser) {
+    scoreListGenerate();
+}
 //frontContent.appendChild(lastUser)
 function endQuiz () {
     scorePage.classList.remove('hide');
